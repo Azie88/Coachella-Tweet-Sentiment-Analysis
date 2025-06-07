@@ -4,11 +4,16 @@
   <img src="https://github.com/user-attachments/assets/a157edd0-6aa4-48d4-a157-dd7844647845" alt="Twitter Sentiment Analysis" width="800"/>
 </a>
 
-Fine-tuning RoBERTa sentiment analysis model on tweets about the Coachella 2015 music festival lineup
+This project is about Natural Language Processing, specifically text classification (Sentiment analysis). In this project, we will fine tune a RoBERTa base sentiment analysis model on tweets about the Coachella 2015 music festival lineup to create a model that can predict of the sentiment expressed in a tweet (e.g: neutral, positive, negative), then create gradio app to use the models and deploy the app on HuggingFace spaces. This project will use [Google Colab](https://colab.research.google.com/) to leverage the GPU computational power.
 
+Read more about [Text classification with Hugging Face](https://huggingface.co/tasks/text-classification)
 
+## Project Links 📑
 
-
+- [Sentiment_Analysis_Coachella.ipynb](https://github.com/Azie88/Coachella-Tweet-Sentiment-Analysis/blob/main/Sentiment_Analysis_Coachella.ipynb): Model Fine Tuning process.
+- [main.py](https://github.com/Azie88/Coachella-Tweet-Sentiment-Analysis/blob/main/main.py): Gradio app
+- [Data](https://github.com/Azie88/Coachella-Tweet-Sentiment-Analysis/tree/main/Dataset): Folder with training and testing datasets for model development.
+- [Hugging Face Space](https://huggingface.co/spaces/Azie88/Coachella-Tweet-Sentiment-Analysis): Gradio app deployed on Huggingface spaces
 
 
 ## Contributions :handshake:
