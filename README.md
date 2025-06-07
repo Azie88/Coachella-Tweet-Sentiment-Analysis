@@ -63,6 +63,23 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
 4. Run the jupyter notebook on colab for more indepth insights on the deep learning process.
 
+## App Screenshots 🖼️
+
+<table>
+    <tr>
+        <th> Gradio App on Huggingface spaces</th>
+    </tr>
+    <tr>
+        <td><img src="Screenshots\Positive Sentiment.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="Screenshots\Neutral Sentiment.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="Screenshots\Negative Sentiment.png"/></td>
+    </tr>
+</table>
+
 ## Contributions :handshake:
 
 Open an issue, submit a pull request or feel free to fork this repository to make any improvements you have in mind.
