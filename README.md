@@ -1,4 +1,7 @@
-# Coachella-Tweet-Sentiment--Analysis
+# Coachella-Tweet-Sentiment-Analysis 🎉
+
+![Twitter-sentiment-analysis-Final](https://github.com/user-attachments/assets/a157edd0-6aa4-48d4-a157-dd7844647845)(https://sproutsocial.com/insights/twitter-sentiment-analysis/)
+
 Fine-tuning RoBERTa sentiment analysis model on tweets about the Coachella 2015 music festival lineup
 
 
