@@ -70,13 +70,13 @@ The two long command-lines have the same structure. They pipe multiple commands 
         <th> Gradio App on Huggingface spaces</th>
     </tr>
     <tr>
-        <td><img src="Screenshots\Positive Sentiment.png"/></td>
+        <td><img src="Screenshots\Positive_Sentiment.png"/></td>
     </tr>
     <tr>
-        <td><img src="Screenshots\Neutral Sentiment.png"/></td>
+        <td><img src="Screenshots\Neutral_Sentiment.png"/></td>
     </tr>
     <tr>
-        <td><img src="Screenshots\Negative Sentiment.png"/></td>
+        <td><img src="Screenshots\Negative_Sentiment.png"/></td>
     </tr>
 </table>
 
