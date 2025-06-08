@@ -41,7 +41,7 @@ def sentiment_analysis(text):
     result = f"""
     <div style="text-align: center; font-size: 2rem;">
         {emoji} <span style="color: {color};">{label}</span><br>
-        <small style="font-size: 1rem;">Confidence: {confidence}%</small>
+        <small style="font-size: 1rem;">Confidence: {confidence:.2f}%</small>
     </div>
     """
     return result
@@ -53,13 +53,12 @@ demo = gr.Interface(
     outputs=gr.HTML(),
     theme=gr.themes.Base(),
     examples=[
-        ["OMG the Coachella lineup is 🔥"],
-        ["This lineup is so trash…"],
-        ["Coachella starts tomorrow."]
+        ["OMG the #Coachella lineup is absolutely 🔥! My body is ready! 🎶 #FestivalVibes #CantWait"],
+        ["Seriously, @Coachella? This lineup is pure trash. Hard pass this year. #Disappointed #NotMyCoachella"],
+        ["Tyla set to perform at #Coachella2025"]
     ],
     title='🎶 Coachella Tweet Sentiment Analyzer',
     description="Analyze if a tweet related to the #Coachella festival has a Positive, Neutral, or Negative sentiment."
 )
 
 demo.launch()
-
